@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview
-Use machine learning to analyze credit card risk. Using 6 different methods to train and evaluate credit card risk. 
+Use machine learning to analyze credit card risk. Using 6 different methods to train and evaluate credit risk with unbalanced classes. Oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. 
 
 ## Results
 1. Random Over Sampler
