@@ -1,6 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview
+Use machine learning to analyze credit card risk. Using 6 different methods to train and evaluate credit card risk. 
 
 ## Results
 1. Random Over Sampler
@@ -52,3 +53,6 @@
 * Recall Scores: high = 0.91 low = 0.95
 
 ## Summary 
+In this challenge we used 6 different machine learning tools to look at credit risk - RandomOverSampler, SMOTE, ClusterCentriods, SMOTEEN, BalancedRandomForestClassifier, and EasyEnsembleClassifier. Accuracy was not high in the first 4 models, meaning that credit risk is high. 
+
+The last model, EasyEnsembleClassifier, had the best outcome. I would recommend the bank use this model for further analysis from this dataset. This model showed the most accuracy and has a low risk precision of 100%. 
